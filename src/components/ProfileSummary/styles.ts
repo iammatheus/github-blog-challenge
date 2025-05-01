@@ -15,6 +15,11 @@ export const SummaryContainer = styled.section`
   border-radius: 8px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
   background: ${(props) => props.theme["blue-700"]};
+
+  img {
+    width: 148px;
+    height: 148px;
+  }
 `;
 
 export const SummaryContent = styled.div`
