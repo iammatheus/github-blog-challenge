@@ -1,4 +1,4 @@
-import { ProfileSummary } from "../../components/ProfileSummary";
+import { ProfileSummary } from "./components/ProfileSummary";
 import { Article } from "./components/Article";
 import { ArticleSearchForm } from "./components/ArticleSearchForm";
 import { HomeContent } from "./styles";
