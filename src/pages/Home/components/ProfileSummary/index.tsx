@@ -14,8 +14,8 @@ import {
   SummaryInfo,
 } from "./styles";
 import { useContext, useEffect, useState } from "react";
-import { GithubContext } from "../../contexts/GithubContext";
-import { UserProfile } from "../../interface/UserProfile";
+import { GithubContext } from "../../../../contexts/GithubContext";
+import { UserProfile } from "../../../../interface/UserProfile";
 import { NavLink } from "react-router-dom";
 
 export function ProfileSummary() {
