@@ -23,7 +23,7 @@ export function Article() {
       {issues.items && issues.items.length > 0 ? (
         issues.items.map((issue) => {
           return (
-            <Link to={`/details/${issue.number}`}>
+            <Link to={`/details/${issue.number}`} key={issue.id}>
               <ArticleContent>
                 <header>
                   <h2>{issue.title}</h2>
