@@ -16,6 +16,12 @@ export const ArticleContent = styled.section`
   border-radius: 8px;
 
   padding: 2rem;
+  height: 100%;
+
+  &:hover {
+    transition: background-color 0.2s;
+    background: ${(props) => props.theme["blue-500"]};
+  }
 
   header {
     display: flex;
@@ -34,7 +40,7 @@ export const ArticleContent = styled.section`
     }
   }
 
-  p {
+  > p {
     color: ${(props) => props.theme["blue-200"]};
     margin-top: 1.5rem;
 
