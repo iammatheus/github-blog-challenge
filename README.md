@@ -6,7 +6,7 @@ O desafio consiste em desenvolver uma aplicação que utilizará da API do GitHu
 - Listar e filtrar todas as issues do repositório com um pequeno resumo do conteúdo dela.
 - Criar uma página para exibir um post (issue) completo.
 
-<img src="https://github.com/iammatheus/github-blog-challenge/blob/master/src/assets/blog.png" alt="" />
+<img src="https://github.com/iammatheus/github-blog-challenge/blob/master/src/assets/blog.png" alt="" width="600" />
 
 ### Tecnologias utilizadas
 - React
